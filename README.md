@@ -24,18 +24,14 @@ I don't like any 'complicated' things.
 ## 사용 예제
 터미널 창에서 다음과 같이 실행하세요.
 ```sh
-python3 keras_vgg_16.py
-```
-Fine-tuning architecture를 사용하려면 다음과 같이 실행하세요.
-```sh
-python3 keras_vgg_16_fine_tune.py
+python3 rcnn_detection.py
 ```
 ## 개발 환경 설정
-Python 3.x 버젼과, tensorflow, keras, opencv 가 필요합니다.
+Python 3.x 버젼과, tensorflow, keras, opencv, opencv-contrib-python 가 필요합니다.
 Pycharm IDE를 사용하였지만, 코드 실행에 특별히 필요하지는 않습니다.
 ```sh
-pip3 install tensorflow
 pip3 install keras
+pip3 install opencv-contrib-python
 ```
  
 ## 업데이트 내역
