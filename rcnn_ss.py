@@ -9,7 +9,8 @@ def selective_search(input):
 
     ss = cv2.ximgproc.segmentation.createSelectiveSearchSegmentation()
     ss.setBaseImage(input)
-    ss.switchToSelectiveSearchFast()
+    ss.switchToSingleStrategy()
+    #ss.switchToSelectiveSearchFast()
 
     rects = ss.process()
     return rects
