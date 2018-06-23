@@ -18,7 +18,7 @@ Thank you!
 별 다른 설치가 필요하지 않습니다.
 복잡한 실행방법을 요하는 코드는 지양합니다.
 
-It's not needed any installation process.
+It doesn't need any installation process.
 I don't like any 'complicated' things.
 
 ## 사용 예제
